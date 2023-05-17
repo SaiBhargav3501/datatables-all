@@ -1,0 +1,29 @@
+<button (click)="rerender()" type="button">render</button>
+<!-- <p>filter-ind works!</p>
+<table datatable [dtOptions]="dtOptions" class="row-border hover">
+    <tfoot>
+      <tr>
+        <th><input type="text" placeholder="Search ID" name="search-id"/></th>
+        <th><input type="text" placeholder="Search first name" name="search-first-name"/></th>
+        <th><input type="text" placeholder="Search last name" name="search-last-name"/></th>
+      </tr>
+    </tfoot> -->
+    <table  datatable [dtOptions]="dtOptions" [dtTrigger]="dtTrigger" class="row-border hover table table-hover table-striped table-bordered mb-5">
+      <!-- <thead>
+        <tr>
+          <th>ID</th>
+          <th>TITLE</th> 
+          <th>REACTIONS</th>
+        </tr>
+      </thead>
+      <tbody >
+        
+        <tr *ngFor="let data of users">
+            <td>{{data.id}}</td>
+            <td>{{data.title}}</td>
+             <td>{{data.reactions}}</td>
+         </tr>
+    </tbody>  -->
+    </table>
+
+    
